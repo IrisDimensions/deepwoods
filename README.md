@@ -9,6 +9,9 @@ If you have any ideas for me what i could add i love to hear them!
 **Note**
 You can edit this dimension for it to have ur own ores from like oraxen for example.
 
+**How to install?**
+Simple! just run the `/iris download pack=deepwoods branch=main` command then shutdown ur server and delete (mainworld)/datapacks and then restart ur server **2** Times and then you can use the /iris create command to create a new world with the deepwoods pack!
+
 ![2023-01-10_16 40 11](https://user-images.githubusercontent.com/107539181/211601462-755cd9c2-53d7-4628-aa91-a597cca03390.png)
 ![2023-01-10_16 42 39](https://user-images.githubusercontent.com/107539181/211601499-dba08344-a9ec-4804-becf-df3ed5ea2e91.png)
 _Sorry for my bad English_
