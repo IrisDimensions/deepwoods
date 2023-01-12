@@ -1,0 +1,82 @@
+{
+    "type": "ZOMBIE",
+    "spawnEffectRiseOutOfGround": true,
+    "helmet":{"type": "carved_pumpkin"},
+    "customNameVisible": true,
+    "customName": "Pumpkin",
+    "removable": false,
+    "keepEntity": true,
+
+
+    "spawnEffect":{
+        "sound": "ENTITY_GHAST_SCREAM",
+         "chance": 1,
+         "volume": 2.3
+
+          },
+    "mainHand":{
+        "type": "stone_sword"
+
+        },
+
+    "chestplate":{
+        "type": "leather_chestplate",
+        "leatherColor": "#FF7F00"
+
+
+        },
+
+    "leggings":{
+        "type": "leather_leggings",
+        "leatherColor": "#FF7F00"
+        },
+
+    "boots":{
+        "type": "leather_boots",
+        "leatherColor": "#FF7F00"
+        },
+
+    "aware": true,
+    "ai": true,
+
+
+    "attributes": [
+        {
+
+            "maxAmount": 125,
+            "minAmount": 125,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "range2",
+            "attribute": "GENERIC_FOLLOW_RANGE"
+
+
+        },
+         {
+
+            "maxAmount": 0.2,
+            "minAmount": 0.2,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "speed1",
+            "attribute": "GENERIC_MOVEMENT_SPEED"
+
+
+        },
+         {
+
+            "maxAmount": 5,
+            "minAmount": 5,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "strength1",
+            "attribute": "GENERIC_ATTACK_DAMAGE"
+
+
+        }
+        ]
+
+
+
+
+}

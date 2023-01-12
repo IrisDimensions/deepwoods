@@ -1,0 +1,46 @@
+{
+    "name": "Desert Treasure",
+    "rarity": 1,
+    "maxPicked": 37,
+    "minPicked": 30,
+    "loot": [
+        {
+            "type": "diamond",
+            "maxAmount": 6,
+            "minAmount": 1,
+            "slotTypes": "STORAGE",
+            "rarity": 2
+        },
+        {
+            "type": "gold_ingot",
+            "maxAmount": 6,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "iron_ingot",
+            "maxAmount": 8,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "golden_carrot",
+            "maxAmount": 9,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "obsidian",
+            "maxAmount": 3,
+            "slotTypes": "STORAGE"
+        },
+         {
+            "type": "saddle",
+            "maxAmount": 2,
+            "slotTypes": "STORAGE"
+        },
+      {
+            "type": "netherite_scrap",
+            "maxAmount": 2,
+            "slotTypes": "STORAGE",
+            "rarity": 4
+        }
+    ]
+}

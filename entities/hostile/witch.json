@@ -1,0 +1,25 @@
+{
+    "type": "WITCH",
+    "spawnEffectRiseOutOfGround": true,
+
+    "aware": true,
+    "ai": true,
+
+    "attributes": [
+        {
+
+            "maxAmount": 65,
+            "minAmount": 65,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "range1",
+            "attribute": "GENERIC_FOLLOW_RANGE"
+
+
+        }
+        ]
+
+
+
+
+}

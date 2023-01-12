@@ -1,0 +1,68 @@
+{
+    "name": "Wood Pools",
+    "derivative": "END_HIGHLANDS",
+    "vanillaDerivative": "END_HIGHLANDS",
+    "entitySpawners": ["Lava/LavaPool"],
+    "customDerivitives": [{
+        "category": "desert",
+        "id": "wood_pools",
+        "waterColor": "#922B21",
+        "downfallType": "none",
+        "temperature": 3,
+        "fogColor": "#a9a9a9",
+        "waterFogColor": "#922B21",
+        "foliageColor": "#922B21",
+        "grassColor": "#a9a9a9",
+        "skyColor": "#922B21"
+
+    }],
+    "rarity": 1,
+    "objects": [
+        {
+            "place": ["DeepHollows/Trees/Pillars/Pillar1"],
+            "carvingSupport": "ANYWHERE",
+            "chance": 1,
+            "density": 2,
+            "mode": "PAINT"
+        },
+        {
+            "place": ["Skull1"],
+            "carvingSupport": "SURFACE_ONLY",
+            "chance": 0.001,
+            "mode": "FAST_MAX_HEIGHT"
+
+
+        }
+    ],
+    "layers": [
+        {
+            "palette": [
+                {
+                    "block": "minecraft:deepslate"
+                }
+
+            ],
+            "style":{
+                "style": "IRIS_HALF",
+                "zoom": 0.025
+
+                }
+        }
+    ],
+    "wall":{
+        "palette": [{"block": "minecraft:dirt"}, {"block": "minecraft:coarse_dirt"}],
+        "maxHeight": 1,
+        "minHeight": 1,
+        "zoom": 1,
+        "slopeCondition":{"minimumSlope": 0, "maximumSlope": 10}
+
+
+
+        },
+
+    "generators": [{
+        "generator": "LandGen",
+        "min": -7,
+        "max": 18
+    }]
+}

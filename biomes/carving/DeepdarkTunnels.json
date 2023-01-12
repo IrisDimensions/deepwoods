@@ -1,0 +1,22 @@
+{
+    "name": "Deepdark Tunnels",
+    "wall": {"palette": [{"block": "minecraft:deepslate"}]},
+
+    "layers": [{
+        "style": {
+            "style": "STATIC",
+            "zoom": 0.5
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:deepslate", "weight": 50}, {"block": "minecraft:tuff", "weight": 50}
+        ]
+    }],
+    "caveCeilingLayers": [{
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [{"block": "minecraft:deepslate"}]
+
+    }]
+}

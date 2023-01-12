@@ -1,0 +1,35 @@
+{
+    "group": "NORMAL",
+    "maximumRate": {
+        "amount": 4,
+        "per": {"seconds": 3}
+
+    },
+    "maxEntitiesPerChunk": 4,
+    "energyMultiplier": 1.2,
+    "weather": "ANY",
+    "spawns": [
+        {
+            "entity": "cosmetics/Lightning",
+            "energyMultiplier": 0.1,
+            "rarity": 1,
+            "minSpawns": 4
+
+        },
+         {
+            "entity": "hostile/wither_skelly",
+            "energyMultiplier": 1,
+            "rarity": 1,
+            "minSpawns": 4
+
+        },
+         {
+            "entity": "hostile/Pumpkin",
+            "energyMultiplier": 1,
+            "rarity": 1,
+            "minSpawns": 4
+
+        }
+
+    ]
+}

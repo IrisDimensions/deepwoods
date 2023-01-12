@@ -1,0 +1,32 @@
+{
+    "type": "SKELETON",
+    "spawnEffectRiseOutOfGround": true,
+    "aware": true,
+    "ai": true,
+    "mainHand":{
+        "type": "bow",
+        "enchantments": [{
+            "chance": 1,
+            "enchantment": "power",
+            "maxLevel": 5,
+            "minLevel": 5
+        }]
+    },
+    "chestplate":{
+        "type": "iron_chestplate"
+    },
+        "attributes": [
+        {
+
+            "maxAmount": 65,
+            "minAmount": 65,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "range1",
+            "attribute": "GENERIC_FOLLOW_RANGE"
+
+
+        }
+        ]
+
+}

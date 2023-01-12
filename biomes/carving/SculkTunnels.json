@@ -1,0 +1,47 @@
+{
+    "name": "Sculk Tunnels",
+    "wall": {"palette": [{"block": "minecraft:deepslate"}]},
+
+    "layers": [{
+        "style": {
+            "style": "STATIC",
+            "zoom": 1
+        },
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [
+            {"block": "minecraft:tuff"},
+            {"block": "minecraft:sculk"}
+        ]
+    }],
+    "caveCeilingLayers": [{
+        "maxHeight": 2,
+        "minHeight": 2,
+        "palette": [{"block": "minecraft:deepslate"}]
+
+    }],
+    "carving":{
+        "caves": [
+            {"cave": "DeepDark/DeepDarkCaves", "rarity": 20}
+
+
+        ]},
+
+   "decorators": [
+    {
+        "palette": [
+            {"block": "minecraft:sculk_sensor"},
+            {"block": "minecraft:sculk_catalyst"}],
+
+            "chance": 0.02
+    },
+    {
+        "palette": [
+            {"block": "minecraft:sculk_shrieker"}
+        ],
+            "chance": 0.005
+    }
+
+
+]
+}

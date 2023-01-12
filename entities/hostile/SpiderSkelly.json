@@ -1,0 +1,54 @@
+{
+    "type": "SPIDER",
+    "spawnEffectRiseOutOfGround": true,
+    "keepEntity": true    ,
+
+    "passengers": [{
+        "type": "SKELETON",
+        "boots":{"type": "iron_boots"},
+        "chestplate":{
+            "type": "iron_chestplate",
+            "enchantments": [
+                {
+                    "enchantment": "protection",
+                    "chance": 1,
+                    "maxLevel": 4,
+                    "minLevel": 2
+
+                }
+            ]
+        },
+
+        "mainHand":{
+            "type": "bow",
+            "enchantments": [{
+                "chance": 1,
+                "enchantment": "power",
+                "maxLevel": 5,
+                "minLevel": 5
+            }]
+        }
+    }],
+
+
+    "aware": true,
+    "ai": true,
+
+    "attributes": [
+        {
+
+            "maxAmount": 65,
+            "minAmount": 65,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "range1",
+            "attribute": "GENERIC_FOLLOW_RANGE"
+
+
+        }
+        ]
+
+
+
+
+}

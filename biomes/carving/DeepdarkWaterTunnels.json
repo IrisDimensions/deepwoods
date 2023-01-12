@@ -1,0 +1,9 @@
+{
+    "name": "Deepdark Water Tunnels",
+    "wall": {"palette": [{"block": "minecraft:deepslate"}]},
+    "layers": [{"palette": [
+        {"block": "minecraft:deepslate"},
+        {"block": "minecraft:tuff"},
+        {"block": "minecraft:clay"}
+    ]}]
+}

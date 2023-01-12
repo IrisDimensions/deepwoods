@@ -1,0 +1,36 @@
+{
+    "type": "CREEPER",
+    "spawnEffectRiseOutOfGround": true,
+
+    "aware": true,
+    "ai": true,
+
+    "attributes": [
+        {
+
+            "maxAmount": 65,
+            "minAmount": 65,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "range1",
+            "attribute": "GENERIC_FOLLOW_RANGE"
+
+
+        },
+        {
+
+            "maxAmount": 0.18,
+            "minAmount": 0.11,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "speed1",
+            "attribute": "GENERIC_MOVEMENT_SPEED"
+
+
+        }
+        ]
+
+
+
+
+}

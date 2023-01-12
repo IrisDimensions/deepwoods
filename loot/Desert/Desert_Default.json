@@ -1,0 +1,40 @@
+{
+    "name": "Desert Rubish",
+    "rarity": 1,
+    "maxPicked": 8,
+    "minPicked": 4,
+    "loot": [
+        {
+            "type": "diamond",
+            "maxAmount": 1,
+            "slotTypes": "STORAGE",
+            "rarity": 3
+        },
+        {
+            "type": "sand",
+            "maxAmount": 1,
+            "minDurability": 0.5,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "sugar",
+            "maxAmount": 3,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "clay",
+            "maxAmount": 2,
+            "slotTypes": "STORAGE"
+        },
+        {
+            "type": "gold_ingot",
+            "maxAmount": 2,
+            "slotTypes": "STORAGE"
+        },
+          {
+            "type": "iron_ingot",
+            "maxAmount": 5,
+            "slotTypes": "STORAGE"
+        }
+    ]
+}

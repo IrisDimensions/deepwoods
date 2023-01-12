@@ -1,0 +1,60 @@
+{
+    "name": "The Woods",
+    "landBiomeZoom": 23,
+    "entitySpawners": ["Woods/High_Woods"],
+
+    "effects": [
+         {
+            "particleAltX": 0.0101,
+            "particleAltY": -0.033885,
+            "particleAltZ": 0.0101,
+            "chance": 2,
+            "particleEffect": "ASH",
+            "particleOffset": 12,
+            "interval": 1,
+            "particleCount": 6
+
+        },
+        {
+            "volume": 7.2,
+            "minPitch": 0.2,
+            "chance": 8,
+            "maxPitch": 0.3,
+            "sound": "AMBIENT_WARPED_FOREST_ADDITIONS",
+            "interval": 1060,
+            "soundDistance": 3
+        },
+        {
+            "volume": 8.2,
+            "minPitch": 0.2,
+            "chance": 8,
+            "maxPitch": 0.3,
+            "sound": "AMBIENT_NETHER_WASTES_MOOD",
+            "interval": 1520,
+            "soundDistance": 105
+        }
+    ],
+    "landBiomes": [
+        "Woods/High_Woods",
+        "Woods/Broken_Woods"
+    ],
+    "seaBiomes": ["Woods/WoodPools"],
+    "shoreBiomes": ["Woods/High_Woods"],
+    "carving":{
+       "caves": [{
+         "cave": "DeepDark/DeepDarkCaves",
+         "breakSurface": true,
+          "caveStartHeight":{"max": 100, "min": 40},
+          "rarity": 30
+
+          },
+          {
+         "cave": "DeepDark/DeepDarkCavesBig",
+         "breakSurface": true,
+          "caveStartHeight":{"max": 90, "min": 85},
+          "rarity": 70
+
+          }
+
+          ]}
+}

@@ -1,0 +1,43 @@
+{
+    "group": "NORMAL",
+    "maximumRate": {
+        "amount": 6,
+        "per": {"seconds": 15}
+    },
+    "maxEntitiesPerChunk": 2,
+    "energyMultiplier": 1,
+    "weather": "ANY",
+    "spawns": [
+        {
+            "entity": "hostile/creeper",
+            "energyMultiplier": 1.885,
+            "rarity": 3
+        },
+        {
+            "entity": "hostile/zombie",
+            "energyMultiplier": 1,
+            "rarity": 2
+        },
+        {
+            "entity": "hostile/skeleton",
+            "energyMultiplier": 1.2,
+            "rarity": 2
+        },
+        {
+            "entity": "hostile/spider",
+            "energyMultiplier": 1.6,
+            "rarity": 3
+        },
+        {
+            "entity": "hostile/witch",
+            "energyMultiplier": 1.7,
+            "rarity": 4
+        },
+         {
+            "entity": "hostile/SpiderSkelly",
+            "energyMultiplier": 1.4,
+            "rarity": 2
+        }
+
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "type": "WITHER_SKELETON",
+    "spawnEffectRiseOutOfGround": true,
+    "chestplate":{
+      "type": "iron_chestplate"
+      },
+     "helmet":{
+      "type": "iron_helmet"
+      },
+
+      "boots":{
+        "type": "iron_boots"
+      },
+      "mainHand":{
+        "type": "iron_sword",
+        "enchantments": [{
+          "enchantment": "sharpness",
+          "maxLevel": 5,
+          "minLevel": 3,
+          "chance": 1
+
+        }]
+      },
+
+    "aware": true,
+    "ai": true,
+
+    "attributes": [
+        {
+
+            "maxAmount": 65,
+            "minAmount": 65,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "range1",
+            "attribute": "GENERIC_FOLLOW_RANGE"
+
+
+        },
+         {
+
+            "maxAmount": 0.18,
+            "minAmount": 0.11,
+            "operation": "ADD_NUMBER",
+            "chance": 1,
+            "name": "witherskelly_speed1",
+            "attribute": "GENERIC_MOVEMENT_SPEED"
+
+
+        }
+        ]
+
+
+
+
+}

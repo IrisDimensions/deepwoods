@@ -1,0 +1,35 @@
+{
+    "name": "Deepwoods",
+    "version": 1,
+    "fluidHeight": 0,
+    "environment": "NETHER",
+    "aggressiveBiomeReshuffle": true,
+
+    "regions": [
+        "Woods"
+    ],
+    "logicalHeight": 448,
+    "dimensionHeight": {
+        "max": 448,
+        "min": -64
+    },
+    "bedrock": true,
+    "rockPalette": {"palette": [{"block": "minecraft:deepslate"}]},
+
+    "fluidPalette": {"palette": [{"block": "minecraft:water"}]},
+    "useMantle": true,
+    "decorate": true,
+    "maximumEnergy": 2000,
+    "regionZoom": 20,
+    "regionStyle": {
+        "style": "CELLULAR",
+        "zoom": 3,
+        "exponent": 1
+    },
+    "continentalStyle": {
+        "style": "NOWHERE_CELLULAR",
+        "zoom": 3,
+        "exponent": 1
+    },
+    "landChance": 0.5
+}

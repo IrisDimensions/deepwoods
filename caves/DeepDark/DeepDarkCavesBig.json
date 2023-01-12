@@ -1,0 +1,54 @@
+{
+    "fill": {"block": "minecraft:cave_air"},
+    "verticalRange": {
+        "max": 300,
+        "min": 65
+    },
+    "customBiome": "carving/DeepdarkHallways",
+    "fork": {
+        "caves": [
+            {"cave": "DeepDark/DeepDarkCaves", "rarity": 10}
+        ],
+        "elipsoids": [{
+            "fill": {"block": "minecraft:cave_air"},
+            "rarity": 325,
+            "baseWidth": {
+                "min": 9,
+                "max": 27,
+                "style": {"style": "STATIC"}
+            }
+        }]
+    },
+    "worm": {
+        "girth": {
+            "max": 12,
+            "min": 9,
+            "style": {"style": "IRIS"}
+        },
+        "maxDistance": 120,
+        "yStyle": {
+            "min": -4,
+            "max": 3,
+            "generator": {
+                "zoom": 1,
+                "style": "SIMPLEX"
+            }
+        },
+        "xStyle": {
+            "min": -17,
+            "max": 17,
+            "generator": {
+                "zoom": 1,
+                "style": "NOWHERE"
+            }
+        },
+        "zStyle": {
+            "min": -17,
+            "max": 17,
+            "generator": {
+                "zoom": 1,
+                "style": "NOWHERE"
+            }
+        }
+    }
+}

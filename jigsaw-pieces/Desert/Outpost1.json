@@ -1,0 +1,29 @@
+{
+    "object": "DeepHollows/Jigsaw/Outpost1",
+
+    "placementOptions": {
+        "loot": [{"name": "Desert/Desert_Treasure"}],
+        "edit": [
+            {
+                "find": [
+                    {
+                        "block": "minecraft:spawner"
+                    }
+                ],
+                "replace": {
+                    "palette": [
+                        {
+                            "block": "minecraft:spawner",
+                            "data": {
+                                "entitySpawn": "minecraft:skeleton"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "bore": true,
+        "mode": "MAX_HEIGHT",
+        "translate":{"y": 1}
+    }
+}

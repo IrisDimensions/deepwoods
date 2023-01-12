@@ -1,0 +1,18 @@
+{
+    "group": "UNDERWATER",
+    "maximumRate": {
+        "amount": 2,
+        "per": {"seconds": 25}
+    },
+    "maxEntitiesPerChunk": 2,
+    "energyMultiplier": 1,
+    "weather": "ANY",
+    "spawns": [
+        {
+            "entity": "passive/Strider",
+            "energyMultiplier": 1.6,
+            "rarity": 3,
+            "maxSpawns": 5
+        }
+    ]
+}

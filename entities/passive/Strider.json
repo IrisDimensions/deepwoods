@@ -1,0 +1,9 @@
+{
+    "type": "STRIDER",
+    "spawnEffectRiseOutOfGround": false,
+
+    "aware": true,
+    "ai": true
+
+
+}
